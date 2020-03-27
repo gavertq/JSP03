@@ -15,7 +15,7 @@
 	<%=nick %>님 안녕하세요.<br>
 	저희 홈페이지에 방문해 주셔서감사합니다.<br>
 	즐거운 시간되세요!<br>
-	<input type="button" value="로그아웃" onclick="location.href='logout.jsp'">
-	<input type="button" value="로그인 페이지" onclick="location.href='login.jsp'">
+	<input type="button" value="로그아웃" onclick="location.href='logout.jsp'">	<!-- 로그아웃 페이지 실행 -->
+	<input type="button" value="로그인 페이지" onclick="location.href='login.jsp'"> <!-- 로그인 페이지로 이동 -->
 </body>
 </html>
