@@ -8,7 +8,7 @@
 </head>
 <body>
 <%
-	//session.removeAttribute("age");
+	//session.removeAttribute("age");	//age 세션 삭제
 	//session.setMaxInactiveInterval(5);	//5초 뒤 모든 세션 삭제
 	session.invalidate();	//바로 모든 세션 삭제
 %>
